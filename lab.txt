@@ -35,4 +35,19 @@ This should correct and clarify your practice notes. Let me know if there's anyt
 
 
 #04/24/2024
+# learning basic vi editor
+- vi/vim has 3 modes
+  1. esc mode
+  2. insert mode
+  3. normal mode
+
+-First thing to do is enter into insert mode/allows you to type
+-w: write
+-q: quit
+-!: immediately
+-gg: takes you to the top of page
+-G: takes you to the bottom of page
+-$: takes you to the end of the line/sentence
+-0: takes you to the beginning of the line/sentence
+
 
