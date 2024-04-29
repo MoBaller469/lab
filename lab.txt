@@ -29,7 +29,7 @@ git config --global user.name "Your Name"
 git config --global user.email "your_email@example.com"
 These configurations help identify the author of the commits and are necessary for collaborative projects.
 This should correct and clarify your practice notes. Let me know if there's anything else you'd like to add or further details you need!
-1. git add file name
+1. git add "file name"
 2. git commit -m "initial commit'
 3. git push
 
@@ -61,4 +61,15 @@ First thing to do is enter into insert mode/allows you to type
  -h: moves left
  -[0-9](l,k,j,h): moves right,left,down,up to specified number
  -d$: deletes entire line
+ -yy - copy
+ -p - paste
+
+File Permissions
+-Owner Group Others
+ 7     0     0
+
+- w (write)   = 4
+- r (read)    = 2
+- x (execute) = 1
+
 
