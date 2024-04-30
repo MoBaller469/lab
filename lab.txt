@@ -87,7 +87,7 @@ File Permissions
 -Owner Group Others
  7     0     0
 
-- w (write)   = 4
 - r (read)    = 2
+- w (write)   = 4
 - x (execute) = 1
 
