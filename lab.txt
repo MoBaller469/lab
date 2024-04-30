@@ -80,6 +80,8 @@ First thing to do is enter into insert mode/allows you to type
  -/tmp - used to store the short-lived temporary files
  -df -h - display file system in human readable format/shows disk space in human-readable format
  -mv - move (Ex: mv learning ~ : moves the directory "learning" to my home directory)    
+ -.. - goes to the previous directory
+ -../.. - goes 2 previous directories
 
 File Permissions
 -Owner Group Others
