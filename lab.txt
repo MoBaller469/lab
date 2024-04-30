@@ -63,6 +63,23 @@ First thing to do is enter into insert mode/allows you to type
  -d$: deletes entire line
  -yy - copy
  -p - paste
+ -a - append
+ -sudo - super user do
+ -O - Creates a new line above current line
+ -o - Creates a new line below current line
+ -cd - change directory/takes to home directory
+ -cd ~ - takes to home directory/same as cd
+ -pwd - parent working directory
+ -rm - remove
+ -rmdir - remove directory
+ -mkdir - make directory
+ -Full Path - shows complete path of the directory (Ex: /home/khan/test/test2)
+ -Relative Path - shows previous path/home directory
+ -rm -fr "directory name" - deletes everything in the specifid directory 
+ -(t) sticky pit - everyone has full access (chmod 777)
+ -/tmp - used to store the short-lived temporary files
+ -df -h - display file system in human readable format/shows disk space in human-readable format
+ -mv - move (Ex: mv learning ~ : moves the directory "learning" to my home directory)    
 
 File Permissions
 -Owner Group Others
@@ -71,5 +88,4 @@ File Permissions
 - w (write)   = 4
 - r (read)    = 2
 - x (execute) = 1
-
 
