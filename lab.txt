@@ -82,12 +82,51 @@ First thing to do is enter into insert mode/allows you to type
  -mv - move (Ex: mv learning ~ : moves the directory "learning" to my home directory)    
  -.. - goes to the previous directory
  -../.. - goes 2 previous directories
+ -:/"Key Word" - Searches specific key word you're looking for
+ -:%s/"old name"/"new name" - replaces old name with new name
+ -:%s/"old name"/"old name"1/g - changes all "old name" words to "old name"1 (Ex: :%s/plano/plano1/g
+									           - changes all "plano" words
+   										     to "plano1"
+ -!'line number' - runs the command on the specified line
+ - more - gives a page of command history (Ex: history | more ---> gives a page of the command line history)
+ - q - quits out of page
+ - control 'r' "key word"  - cycles through previous commands of specified key word (Ex: control 'r' "ls" --> cycles 
+										     thru all previous ls commands)
+ -pts - unique id connection
+ -wall - send a quick message to the terminals of all currently logged in users
+ -whoami - a built-in utility that displays the username of the current user
+ -w - provides a quick summary of every user logged into a computer, what each user is currently doing, and what load        all the activity is imposing on the computer itself
+ 
+ -pkill - allows you to terminate processes based on their names and other attributes (Ex: pkill -u hamza ---> removes
+          									       hamza from connection)
 
-File Permissions
+ -usermod - a powerful tool for managing user accounts (Ex: usermod -c "Muhammad Khan" --->  updates information on 							       Muhammad Khan)
+
+ -useradd - creates a new user account (Ex: useradd -c "Muhammad Khan" -s /bin/zsh khan2 ---> adds new user to the 
+					zsh shell and username is "khan2")
+
+ - c - comment
+ - s - shell
+ - a - add
+ - G - group (Ex: aG - add Group) 
+ - uptime - shows the system's uptime, how long it has been running, and when it was last booted
+ - who -b - shows when the system was last booted
+ - man - used to display the user manual of any command that we can run on the terminal
+ - # - a program or utility that runs on the command line
+
+"File Permissions
 -Owner Group Others
  7     0     0
 
-- r (read)    = 2
-- w (write)   = 4
+- r (read)    = 4
+- w (write)   = 2
 - x (execute) = 1
+
+- u (user)
+- g (group)
+- o (others)
+
+- When using ugo, use alphabetical permission not numerical (Ex: chmod ug+rx ----> owner and group can read and execute
+- If permissions are to be granted use '+' (Ex: chmod go+rwx ---> gives groups and others all permissions)
+- If permissions are to be revoked use '-' (Ex: chmod g0-rwx ---> revokes groups and others of all permissions)
 
