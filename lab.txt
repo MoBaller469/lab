@@ -120,18 +120,18 @@ First thing to do is enter into insert mode/allows you to type
  - r - recursive
 
 "File Permissions
--Owner Group Others
- 7     0     0
+ -Owner Group Others
+  7     0     0
 
-- r (read)    = 4
-- w (write)   = 2
-- x (execute) = 1
+ - r (read)    = 4
+ - w (write)   = 2
+ - x (execute) = 1
 
-- u (user)
-- g (group)
-- o (others)
+ - u (user)
+ - g (group)
+ - o (others)
 
-- When using ugo, use alphabetical permission not numerical (Ex: chmod ug+rx ----> owner and group can read and execute
-- If permissions are to be granted use '+' (Ex: chmod go+rwx ---> gives groups and others all permissions)
-- If permissions are to be revoked use '-' (Ex: chmod g0-rwx ---> revokes groups and others of all permissions)
+ - When using ugo, use alphabetical permission not numerical (Ex: chmod ug+rx ----> owner and group can read and          execute
+ - If permissions are to be granted use '+' (Ex: chmod go+rwx ---> gives groups and others all permissions)
+ - If permissions are to be revoked use '-' (Ex: chmod g0-rwx ---> revokes groups and others of all permissions)
 
