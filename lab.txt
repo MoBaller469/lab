@@ -105,6 +105,9 @@ First thing to do is enter into insert mode/allows you to type
  -useradd - creates a new user account (Ex: useradd -c "Muhammad Khan" -s /bin/zsh khan2 ---> adds new user to the 
 					zsh shell and username is "khan2")
 
+ - grep - perform text searches for a defined criteria of words or strings
+ - shutdown - allows you to shut down a computer
+
  - c - comment
  - s - shell
  - a - add
@@ -113,6 +116,8 @@ First thing to do is enter into insert mode/allows you to type
  - who -b - shows when the system was last booted
  - man - used to display the user manual of any command that we can run on the terminal
  - # - a program or utility that runs on the command line
+ - i - case senstive
+ - r - recursive
 
 "File Permissions
 -Owner Group Others
