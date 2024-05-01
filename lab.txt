@@ -44,67 +44,68 @@ vi/vim has 3 modes
   3. normal mode
 
 First thing to do is enter into insert mode/allows you to type
- -w: write
- -q: quit
- -!: immediately
- -gg: takes you to the top of page
- -G: takes you to the bottom of page
- -$: takes you to the end of the line/sentence
- -0: takes you to the beginning of the line/sentence
- -dG: deletes the whole file
- -dd: deletes the line
- -[0-9]dd: deletes the number of lines specified
- -uu: undo the previous action
- -l: moves to the right
- -k: moves up
- -j: goes down
- -h: moves left
- -[0-9](l,k,j,h): moves right,left,down,up to specified number
- -d$: deletes entire line
- -yy - copy
- -p - paste
- -a - append
- -sudo - super user do
- -O - Creates a new line above current line
- -o - Creates a new line below current line
- -cd - change directory/takes to home directory
- -cd ~ - takes to home directory/same as cd
- -pwd - parent working directory
- -rm - remove
- -rmdir - remove directory
- -mkdir - make directory
- -Full Path - shows complete path of the directory (Ex: /home/khan/test/test2)
- -Relative Path - shows previous path/home directory
- -rm -fr "directory name" - deletes everything in the specifid directory 
- -(t) sticky pit - everyone has full access (chmod 777)
- -/tmp - used to store the short-lived temporary files
- -df -h - display file system in human readable format/shows disk space in human-readable format
- -mv - move (Ex: mv learning ~ : moves the directory "learning" to my home directory)    
- -.. - goes to the previous directory
- -../.. - goes 2 previous directories
- -:/"Key Word" - Searches specific key word you're looking for
- -:%s/"old name"/"new name" - replaces old name with new name
- -:%s/"old name"/"old name"1/g - changes all "old name" words to "old name"1 (Ex: :%s/plano/plano1/g
+ - w: write
+ - q: quit
+ - !: immediately
+ - gg: takes you to the top of page
+ - G: takes you to the bottom of page
+ - $: takes you to the end of the line/sentence
+ - 0: takes you to the beginning of the line/sentence
+ - dG: deletes the whole file
+ - dd: deletes the line
+ - [0-9]dd: deletes the number of lines specified
+ - uu: undo the previous action
+ - l: moves to the right
+ - k: moves up
+ - j: goes down
+ - h: moves left
+ - [0-9](l,k,j,h): moves right,left,down,up to specified number
+ - d$: deletes entire line
+ - yy - copy
+ - p - paste
+ - a - append
+ - sudo - super user do
+ - O - Creates a new line above current line
+ - o - Creates a new line below current line
+ - cd - change directory/takes to home directory
+ - cd ~ - takes to home directory/same as cd
+ - pwd - parent working directory
+ - rm - remove
+ - rmdir - remove directory
+ - mkdir - make directory
+ - Full Path - shows complete path of the directory (Ex: /home/khan/test/test2)
+ - Relative Path - shows previous path/home directory
+ - rm -fr "directory name" - deletes everything in the specifid directory 
+ - (t) sticky pit - everyone has full access (chmod 777)
+ - /tmp - used to store the short-lived temporary files
+ - df -h - display file system in human readable format/shows disk space in human-readable format
+ - mv - move (Ex: mv learning ~ : moves the directory "learning" to my home directory)    
+ - .. - goes to the previous directory
+ - ../.. - goes 2 previous directories
+ - :/"Key Word" - Searches specific key word you're looking for
+ - :%s/"old name"/"new name" - replaces old name with new name
+ - :%s/"old name"/"old name"1/g - changes all "old name" words to "old name"1 (Ex: :%s/plano/plano1/g
 									           - changes all "plano" words
    										     to "plano1"
- -!'line number' - runs the command on the specified line
+ - !'line number' - runs the command on the specified line
  - more - gives a page of command history (Ex: history | more ---> gives a page of the command line history)
  - q - quits out of page
  - control 'r' "key word"  - cycles through previous commands of specified key word (Ex: control 'r' "ls" --> cycles 
 										     thru all previous ls commands)
- -pts - unique id connection
- -wall - send a quick message to the terminals of all currently logged in users
- -whoami - a built-in utility that displays the username of the current user
- -w - provides a quick summary of every user logged into a computer, what each user is currently doing, and what load        all the activity is imposing on the computer itself
+ - pts - unique id connection
+ - wall - send a quick message to the terminals of all currently logged in users
+ - whoami - a built-in utility that displays the username of the current user
+ - w - provides a quick summary of every user logged into a computer, what each user is currently doing, and what load        all the activity is imposing on the computer itself
  
- -pkill - allows you to terminate processes based on their names and other attributes (Ex: pkill -u hamza ---> removes
+ - pkill - allows you to terminate processes based on their names and other attributes (Ex: pkill -u hamza ---> removes
           									       hamza from connection)
 
- -usermod - a powerful tool for managing user accounts (Ex: usermod -c "Muhammad Khan" --->  updates information on 							       Muhammad Khan)
+ - usermod - a powerful tool for managing user accounts (Ex: usermod -c "Muhammad Khan" --->  updates information on 							       Muhammad Khan)
 
- -useradd - creates a new user account (Ex: useradd -c "Muhammad Khan" -s /bin/zsh khan2 ---> adds new user to the 
+ - useradd - creates a new user account (Ex: useradd -c "Muhammad Khan" -s /bin/zsh khan2 ---> adds new user to the 
 					zsh shell and username is "khan2")
 
+ - userdel - removes the user account identified by the login parameter
  - grep - perform text searches for a defined criteria of words or strings
  - shutdown - allows you to shut down a computer
 
