@@ -119,6 +119,10 @@ First thing to do is enter into insert mode/allows you to type
  - head - loads the first 10 lines (Ex: head -n 10 ---> loads first 10 lines) 
  - awk - a powerful tool for text processing and data manipulation (Ex: awk -F: '{ Print 1 }' ---> selecting the 
 									first character)
+ - do - do action while (condition) After the action or actions are performed, the condition is checked again 
+ - done - Marks the end of the loop
+ - echo $0 - shows if there are any errors in code that is to be compiled (Ex: echo $0 ---> No errors when it is to 
+									       be compiled) 
 
  - c - comment
  - s - shell
