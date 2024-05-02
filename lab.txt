@@ -108,6 +108,8 @@ First thing to do is enter into insert mode/allows you to type
  - userdel - removes the user account identified by the login parameter
  - grep - perform text searches for a defined criteria of words or strings
  - shutdown - allows you to shut down a computer
+ - sdiff - shows the text difference between 2 files (Ex: sdiff lab.txt lab2 --> shows the difference between
+  						          lab.txt and lab2)
 
  - c - comment
  - s - shell
