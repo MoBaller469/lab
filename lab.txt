@@ -53,6 +53,7 @@ First thing to do is enter into insert mode/allows you to type
  - 0: takes you to the beginning of the line/sentence
  - dG: deletes the whole file
  - dd: deletes the line
+ - d["number"] - deletes the specified number of lines
  - [0-9]dd: deletes the number of lines specified
  - uu: undo the previous action
  - l: moves to the right
@@ -110,6 +111,10 @@ First thing to do is enter into insert mode/allows you to type
  - shutdown - allows you to shut down a computer
  - sdiff - shows the text difference between 2 files (Ex: sdiff lab.txt lab2 --> shows the difference between
   						          lab.txt and lab2)
+ - set number: sets the number of lines in a vim file
+ - set nonumber: removes the line counter on the left side of vim file
+ - color: sets the color of the text 
+ - colorscheme: sets the color of the background 
 
  - c - comment
  - s - shell
