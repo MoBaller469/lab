@@ -111,14 +111,19 @@ First thing to do is enter into insert mode/allows you to type
  - shutdown - allows you to shut down a computer
  - sdiff - shows the text difference between 2 files (Ex: sdiff lab.txt lab2 --> shows the difference between
   						          lab.txt and lab2)
- - set number: sets the number of lines in a vim file
- - set nonumber: removes the line counter on the left side of vim file
- - color: sets the color of the text 
- - colorscheme: sets the color of the background 
+ - set number - sets the number of lines in a vim file
+ - set nonumber - removes the line counter on the left side of vim file
+ - color - sets the color of the text 
+ - colorscheme - sets the color of the background 
+ - tail - loads the last 10 lines (Ex: tail -n 10 ---> loads last 10 lines)
+ - head - loads the first 10 lines (Ex: head -n 10 ---> loads first 10 lines) 
+ - awk - a powerful tool for text processing and data manipulation (Ex: awk -F: '{ Print 1 }' ---> selecting the 
+									first character)
 
  - c - comment
  - s - shell
  - a - add
+ - F - field selector
  - G - group (Ex: aG - add Group) 
  - uptime - shows the system's uptime, how long it has been running, and when it was last booted
  - who -b - shows when the system was last booted
