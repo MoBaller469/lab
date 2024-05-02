@@ -87,7 +87,7 @@ First thing to do is enter into insert mode/allows you to type
  - :%s/"old name"/"old name"1/g - changes all "old name" words to "old name"1 (Ex: :%s/plano/plano1/g
 									           - changes all "plano" words
    										     to "plano1"
- - !'line number' - runs the command on the specified line
+ - !'line number' - runs the command on the specified line in history of the command line
  - more - gives a page of command history (Ex: history | more ---> gives a page of the command line history)
  - q - quits out of page
  - control 'r' "key word"  - cycles through previous commands of specified key word (Ex: control 'r' "ls" --> cycles 
@@ -120,7 +120,7 @@ First thing to do is enter into insert mode/allows you to type
  - i - case senstive
  - r - recursive
 
-"File Permissions
+File Permissions
  -Owner Group Others
   7     0     0
 
