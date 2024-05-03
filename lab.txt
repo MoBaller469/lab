@@ -131,7 +131,9 @@ First thing to do is enter into insert mode/allows you to type
  - lo - loopback/personal ip address on machine
  - br0 - breach/server ip address
  - subnet mask - a 32-bit number used in IPv4 (or 128-bit for IPv6) that divides your IP address into network and host                  portions/equal to mask
- 
+ - scp - a network protocol that securely copies files/folders between Linux (Unix) systems on a network
+ - rsync - a powerful and versatile Linux command for transferring and synchronizing files between local and remote               devices
+
  - c - comment
  - s - shell
  - a - add
