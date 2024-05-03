@@ -118,12 +118,14 @@ First thing to do is enter into insert mode/allows you to type
  - tail - loads the last 10 lines (Ex: tail -n 20 ---> loads last 20 lines)
  - head - loads the first 10 lines (Ex: head -n 20 ---> loads first 20 lines)
  - wc -l - shows the listed word count (Ex: tail -n 20 lab.txt | wc -l ---> shows the word count of lab.txt            						   (last 20 lines))  
- - awk - a powerful tool for text processing and data manipulation (Ex: awk -F: '{ Print 1 }' ---> selecting the 
-									first character)
+ - awk - a powerful tool for text processing and data manipulation (Ex: cat etc.txt | grep "khan" |
+								        awk -F: '{ Print 1 }' ---> shows the first 
+									character in specified file which is khan)`
  - do - do action while (condition) After the action or actions are performed, the condition is checked again 
  - done - Marks the end of the loop
  - echo $0 - shows if there are any errors in code that is to be compiled (Ex: echo $0 ---> No errors when it is to 
 									       be compiled) 
+ - :[line #] - takes you to the specified line number in the vim file
 
  - c - comment
  - s - shell
