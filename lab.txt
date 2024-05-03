@@ -126,7 +126,12 @@ First thing to do is enter into insert mode/allows you to type
  - echo $0 - shows if there are any errors in code that is to be compiled (Ex: echo $0 ---> No errors when it is to 
 									       be compiled) 
  - :[line #] - takes you to the specified line number in the vim file
-
+ - pvs - provides physical volume information in a configurable form, displaying one line per physical volume
+ - vgs - provides volume group information in a configurable form, displaying one line per volume group
+ - lo - loopback/personal ip address on machine
+ - br0 - breach/server ip address
+ - subnet mask - a 32-bit number used in IPv4 (or 128-bit for IPv6) that divides your IP address into network and host                  portions/equal to mask
+ 
  - c - comment
  - s - shell
  - a - add
