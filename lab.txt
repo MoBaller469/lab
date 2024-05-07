@@ -134,6 +134,9 @@ First thing to do is enter into insert mode/allows you to type
  - scp - a network protocol that securely copies files/folders between Linux (Unix) systems on a network
  - rsync - a powerful and versatile Linux command for transferring and synchronizing files between local and remote               devices
 
+ - sort - a powerful tool used to sort the contents of a text file or standard input data
+ - uniq - finds the unique lines in a given input ( stdin or a filename command line argument) and either reports or re          moves the duplicated lines
+
  - c - comment
  - s - shell
  - a - add
