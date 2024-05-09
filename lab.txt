@@ -136,10 +136,24 @@ First thing to do is enter into insert mode/allows you to type
 
  - sort - a powerful tool used to sort the contents of a text file or standard input data
  - uniq - finds the unique lines in a given input ( stdin or a filename command line argument) and either reports or re          moves the duplicated lines
-
+ - !! - recalls previous command
+ - control r - can search through commands using key words, continuosly hit control r to cycle through search history
+ - LVM - Logical Volume Management
+ - pvs, pvdisplay - displays physical volume of disk/hard drive (Ex: pvdisplay /dev/sdb /dev/sdc)
+ - vgs, vgdisplay - displays volume disk group (Ex: /dev/sda /dev/sdb /dev/sdc)
+ - lvs - logical volumes of the partitions created on the disk/hard drive
+ - fdisk -l - will display all disks, used or unused, on the machine
+ - pvcreate - creates new physical volume disk
+ - vgextend - adds/moves the group to the disk
+ - vgreduce - reduces the size of the physical disk
+ - vgremove - removes the volume group from the physical disk 
+ 
  - c - comment
  - s - shell
  - a - add
+ - m - menu (shows the menu)
+ - p - print (prints the partition table)
+ - n - new (creates new partition of the disk)
  - F - field selector
  - G - group (Ex: aG - add Group) 
  - uptime - shows the system's uptime, how long it has been running, and when it was last booted
