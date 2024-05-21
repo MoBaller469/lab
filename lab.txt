@@ -147,6 +147,8 @@ First thing to do is enter into insert mode/allows you to type
  - vgextend - adds/moves the group to the disk
  - vgreduce - reduces the size of the physical disk
  - vgremove - removes the volume group from the physical disk 
+ - useradd command updates 3 files (/etc/shadow & /etc/passwd/) (3rd place is directory							         under home directory)
+ - usermod - modify existing changes
  
  - c - comment
  - s - shell
@@ -162,6 +164,8 @@ First thing to do is enter into insert mode/allows you to type
  - # - a program or utility that runs on the command line
  - i - case senstive
  - r - recursive
+ - m - create directory
+ - d - directory
 
 File Permissions
  -Owner Group Others
