@@ -147,7 +147,7 @@ First thing to do is enter into insert mode/allows you to type
  - vgextend - adds/moves the group to the disk
  - vgreduce - reduces the size of the physical disk
  - vgremove - removes the volume group from the physical disk 
- - useradd command updates 3 files (/etc/shadow & /etc/passwd/) (3rd place is directory							         under home directory)
+ - useradd command updates 3 files (/etc/shadow & /etc/passwd/), (3rd place is directory under home directory)
  - usermod - modify existing changes
  
  - c - comment
