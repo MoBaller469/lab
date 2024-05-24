@@ -183,7 +183,7 @@ File Permissions
  - g (group)
  - o (others)
 
- - When using ugo, use alphabetical permission not numerical (Ex: chmod ug+rx ----> owner and group can read and          execute
+ - When using ugo, use alphabetical permission not numerical (Ex: chmod ug+rx ----> owner and group can read and execute
  - If permissions are to be granted use '+' (Ex: chmod go+rwx ---> gives groups and others all permissions)
  - If permissions are to be revoked use '-' (Ex: chmod g0-rwx ---> revokes groups and others of all permissions)
 
