@@ -153,7 +153,9 @@ First thing to do is enter into insert mode/allows you to type
  - psswd - sets a new password for the user that is being added to the system
  - wall - writes a message to all users that are logged in
  - write - send a message to another user
- 
+ - ansible - adhoc command
+ - inventory - shows information on all servers (project) 
+
  - c - comment
  - s - shell
  - a - add
