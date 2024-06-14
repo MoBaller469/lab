@@ -1,0 +1,19 @@
+Linux Training Course (Udemy)
+
+06/13/2024
+
+Operating System: system software that manages computer hardware and software 
+	          resources, and provides common services for computer 
+		  programs.
+
+Types of OS Systems:
+1. Desktop OS - Microsoft Windows, macOS, Linux (Ubuntu)
+2. Server OS - Windows Server, Linux Disributions (CentOS, Red Hat Enterprise)
+3. Mobile OS - Android, iOS, Windows Mobile
+4. Embedded OS - Routers, Smart TVs, Automobiles, Home Appliances
+5. Real-Time OS (RTOS) - used in critical systems like medical equipment, car
+ 			 ECUs, aerospace, defense, network firewalls, home
+			 security systems.
+
+What is Linux?
+ 
