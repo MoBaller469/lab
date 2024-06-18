@@ -16,4 +16,21 @@ Types of OS Systems:
 			 security systems.
 
 What is Linux?
+- In simple terms, Linux is a free and open-source OS
+- Similar to Windows, macOS, but also different in several ways
+- Linux has many different versions (distributions) 
+
+Importance of Linux
+- Widely used in servers and cloud computing
+
+Linux Users
+- Developers
+- Educational Institutions
+- Government Agencies
+- Enterprise and Businesses
+- Tech Companies
+- Cloud and Web Servers
+- Supercomputers and Research Facilities
+- Telecommunications and Networking
+- Media and Entertainment
  
