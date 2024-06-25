@@ -33,4 +33,16 @@ Linux Users
 - Supercomputers and Research Facilities
 - Telecommunications and Networking
 - Media and Entertainment
- 
+
+CentOS vs CentOS Stream 
+- CentOS: Community Enterprise Operating System
+- Before Feb 2021: Fedora -> RHEL -> CentOS
+- After Feb 2021: Fedora -> CentOS Stream -> RHEL
+
+Different Ways to Install OS
+- CD/DVD
+- ISO Image
+- Network Boot
+- Attach USB with ISO Image
+- Installation application e.g. Redhat Kickstart etc.
+    
