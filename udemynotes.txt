@@ -45,4 +45,15 @@ Different Ways to Install OS
 - Network Boot
 - Attach USB with ISO Image
 - Installation application e.g. Redhat Kickstart etc.
-    
+
+Important Things to Remember in Linux
+- Linux has super-user account called root
+  - Root is the most powerful account that can create, modify, delete accounts
+    and make changes to system configuration files.
+- Linux is case-sensitive system
+  - ABC is NOT same as abc
+- Avoid using spaces when creating files and directories
+- Linux kernel is not an OS. It's a small software within Linux OS that takes 
+  commands from users and passes them to system hardware or peripherals
+- Linux is mostly CLI not GUI.
+- Linux is very flexible compared to other OS's.
