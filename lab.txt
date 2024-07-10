@@ -189,4 +189,8 @@ File Permissions
  - If permissions are to be granted use '+' (Ex: chmod go+rwx ---> gives groups and others all permissions)
  - If permissions are to be revoked use '-' (Ex: chmod g0-rwx ---> revokes groups and others of all permissions)
 
+Docker Commands
+ - These commands will force to remove all process and images within the Docker Repository
+ - To remove Docker process: docker rm -f $(docker ps -a -q)
+ - To remove Docker Images: docker rmi $(docker images -q)
 
