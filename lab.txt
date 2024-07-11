@@ -194,3 +194,9 @@ Docker Commands
  - To remove Docker process: docker rm -f $(docker ps -a -q)
  - To remove Docker Images: docker rmi $(docker images -q)
 
+Ansible Adhoc
+ - one-off commands that are executed on command line of an Ansible control node (ex: personal laptop)
+
+Ansible-playbook 
+ - a file that contains a set of instructions for Ansible to automate tasks
+
