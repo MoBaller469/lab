@@ -57,3 +57,13 @@ Important Things to Remember in Linux
   commands from users and passes them to system hardware or peripherals
 - Linux is mostly CLI not GUI.
 - Linux is very flexible compared to other OS's.
+
+Access to Linux System
+- There are 2 types of Access
+  1. Console
+  2. Remote
+
+- This console is direct access to an OS when it's connected through VGA,HDMI,DVI,   etc.
+- The 2nd type of access is remote access, where you connect to your OS remotely     over the network.
+- Putty is a software which allows you to connect from a windows system to a Linux   system remotely
+
